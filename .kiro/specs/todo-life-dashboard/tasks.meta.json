@@ -1,0 +1,301 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "2.1 Implement `themeModule.init()` and `themeModule.toggle()`": [
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795144453756
+      },
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795144474643
+      },
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795145205559
+      }
+    ],
+    "3. Implement CSS theming and global layout (`css/style.css`)": [
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795144455353
+      },
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795145225259
+      },
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795145817972
+      }
+    ],
+    "4.1 Implement clock, date display, and greeting prefix logic": [
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795144457385
+      },
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795144479876
+      },
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795145213314
+      }
+    ],
+    "4.3 Implement name persistence and confirmation/error UI": [
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795144457868
+      },
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795145229266
+      },
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795145822523
+      }
+    ],
+    "5.1 Implement MM:SS formatter and duration validator": [
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795144459068
+      },
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795144484071
+      },
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795145219927
+      }
+    ],
+    "5.4 Implement timer state machine (start, stop, reset, tick, completion)": [
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795144459378
+      },
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795145234826
+      },
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795145826771
+      }
+    ],
+    "5.5 Implement duration save with validation and error UI": [
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795144459735
+      },
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795145849252
+      },
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795146029176
+      }
+    ],
+    "6. Checkpoint — Ensure all tests pass": [
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795144460133
+      }
+    ],
+    "7.1 Implement task add with validation and debounced save": [
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795144460774
+      },
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795145240352
+      },
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795145832055
+      }
+    ],
+    "7.4 Implement task toggle and delete": [
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795144461183
+      },
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795146040588
+      },
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795146109996
+      }
+    ],
+    "7.6 Implement inline task edit": [
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795144462177
+      },
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795146123957
+      },
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795146178160
+      }
+    ],
+    "7.8 Implement task list load from localStorage with error handling": [
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795144462560
+      },
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795146182986
+      },
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795146253876
+      }
+    ],
+    "8.1 Implement URL validator and add-link logic": [
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795144462806
+      },
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795145245381
+      },
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795145839668
+      }
+    ],
+    "8.4 Implement link open and delete, and load from localStorage": [
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795144463078
+      },
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795146045494
+      },
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795146114470
+      }
+    ],
+    "9. Checkpoint — Ensure all tests pass": [
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795144463413
+      }
+    ],
+    "10.1 Verify `app.js` initialisation order and confirm all widgets render on cold load": [
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795144463881
+      },
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795146265392
+      }
+    ],
+    "10.2 Implement and verify responsive layout across viewport widths": [
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795144464156
+      }
+    ],
+    "11. Final checkpoint — Ensure all tests pass": [
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795144464349
+      }
+    ],
+    "2. Implement Theme Toggle (`theme.js`)": [
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795145206237
+      }
+    ],
+    "4. Implement Greeting Widget (`greeting.js`)": [
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795145822613
+      }
+    ],
+    "5. Implement Focus Timer (`timer.js`)": [
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795146029245
+      }
+    ],
+    "8. Implement Quick Links (`quicklinks.js`)": [
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795146114532
+      }
+    ],
+    "7. Implement To-Do List (`todo.js`)": [
+      {
+        "executionId": "031b1763-8231-41c3-9f4a-faaa1473b94a",
+        "chatSessionId": "sess_ff874f3d-73f0-4adf-8ecc-ab4fc7a5e652",
+        "timestamp": 1795146253960
+      }
+    ]
+  }
+}

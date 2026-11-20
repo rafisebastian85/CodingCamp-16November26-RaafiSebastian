@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Life Dashboard — To-Do & Daily Organizer</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Top Navigation Bar with App Title & Theme Switcher -->
+  <header class="top-nav">
+    <div class="nav-brand">
+      <span class="brand-icon">⚡</span>
+      <span class="brand-title">Life Dashboard</span>
+    </div>
+    <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle light or dark theme" title="Toggle theme">
+      <span class="theme-icon">🌙</span>
+      <span class="theme-label">Dark Mode</span>
+    </button>
+  </header>
+
+  <!-- Main Container -->
+  <main class="dashboard-wrapper">
+    <!-- Top Greeting & Clock Card (Hero) -->
+    <section id="greeting-widget" class="card greeting-card" aria-label="Current time and greeting">
+      <div class="clock-display" aria-live="polite">00:00:00</div>
+      <div class="date-display">Loading date...</div>
+      <h1 class="greeting-heading">Good Morning</h1>
+
+      <!-- Name Customization Bar (Challenge 2) -->
+      <div class="greeting-name-section">
+        <div class="name-display-wrap">
+          <span class="greeting-subtitle">Welcome back!</span>
+          <button type="button" class="btn-link edit-name-toggle" aria-label="Change your name">
+            ✏️ <span class="edit-name-text">Edit Name</span>
+          </button>
+        </div>
+        <form class="name-edit-form" hidden>
+          <div class="name-input-group">
+            <input
+              type="text"
+              class="greeting-name-input"
+              maxlength="50"
+              placeholder="Enter your name (max 50 chars)"
+              aria-label="Display name"
+            />
+            <button type="submit" class="btn btn-primary greeting-save-btn">Save</button>
+            <button type="button" class="btn btn-ghost greeting-cancel-btn">Cancel</button>
+          </div>
+          <div class="greeting-feedback">
+            <span class="confirmation-badge" hidden>✓ Name saved successfully!</span>
+            <span class="error-badge" hidden>⚠ Please enter 1 to 50 characters.</span>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Dashboard 2-Column Grid -->
+    <div class="dashboard-grid">
+      <!-- Left Column: Focus Timer & Quick Links -->
+      <div class="grid-left">
+        <!-- Focus Timer Card -->
+        <section id="timer-widget" class="card timer-card" aria-label="Pomodoro focus timer">
+          <h2 class="card-title text-center">Focus Timer</h2>
+          <div class="timer-display" aria-live="polite">25:00</div>
+
+          <!-- Controls: Start, Stop, Reset -->
+          <div class="timer-controls">
+            <button type="button" class="btn btn-primary timer-start-btn" aria-label="Start timer">Start</button>
+            <button type="button" class="btn btn-secondary timer-stop-btn" aria-label="Stop timer">Stop</button>
+            <button type="button" class="btn btn-secondary timer-reset-btn" aria-label="Reset timer">Reset</button>
+          </div>
+
+          <!-- Completion Alert Badge -->
+          <div class="completion-badge" hidden aria-live="assertive">
+            🎉 Focus session completed! Take a break.
+          </div>
+
+          <!-- Pomodoro Customization (Challenge 3) -->
+          <div class="timer-settings">
+            <div class="presets-row">
+              <span class="presets-label">Presets:</span>
+              <button type="button" class="preset-btn active" data-min="25">25m</button>
+              <button type="button" class="preset-btn" data-min="15">15m</button>
+              <button type="button" class="preset-btn" data-min="45">45m</button>
+              <button type="button" class="preset-btn" data-min="60">60m</button>
+            </div>
+            <div class="custom-duration-row">
+              <label for="timer-duration-input">Custom (1–60 min):</label>
+              <div class="duration-input-wrap">
+                <input
+                  id="timer-duration-input"
+                  class="timer-duration-input"
+                  type="number"
+                  min="1"
+                  max="60"
+                  step="1"
+                  value="25"
+                  aria-label="Timer minutes"
+                />
+                <button type="button" class="btn btn-sm btn-outline timer-duration-save-btn">Set</button>
+              </div>
+            </div>
+            <span class="timer-error-msg validation-error" hidden></span>
+          </div>
+        </section>
+
+        <!-- Quick Links Card -->
+        <section id="quicklinks-widget" class="card quicklinks-card" aria-label="Quick links shortcuts">
+          <div class="card-header-row">
+            <h2 class="card-title">Quick Links</h2>
+            <span class="badge-count links-count">0/20</span>
+          </div>
+
+          <!-- Add Link Form -->
+          <form class="quicklinks-form" novalidate>
+            <div class="quicklinks-inputs-row">
+              <input
+                type="text"
+                id="quicklinks-label"
+                name="label"
+                class="form-control input-label"
+                maxlength="50"
+                placeholder="Link name"
+                aria-label="Link name"
+                required
+              />
+              <input
+                type="url"
+                id="quicklinks-url"
+                name="url"
+                class="form-control input-url"
+                maxlength="2048"
+                placeholder="URL (e.g. https://...)"
+                aria-label="Link URL"
+                required
+              />
+              <button type="submit" class="btn btn-primary quicklinks-add-btn">Add Link</button>
+            </div>
+            <div class="validation-error quicklinks-error" hidden></div>
+          </form>
+
+          <!-- Links Chip List -->
+          <div class="quicklinks-chips-container">
+            <ul class="quicklinks-list"></ul>
+          </div>
+        </section>
+      </div>
+
+      <!-- Right Column: Tasks (To-Do List) -->
+      <div class="grid-right">
+        <!-- Tasks Card -->
+        <section id="todo-widget" class="card tasks-card" aria-label="Task to-do list">
+          <div class="card-header-row">
+            <h2 class="card-title">Tasks</h2>
+            <span class="badge-count todo-stats-count">0 tasks</span>
+          </div>
+
+          <!-- Add Task Form -->
+          <form class="todo-add-form" novalidate>
+            <div class="todo-input-row">
+              <input
+                type="text"
+                class="form-control todo-input"
+                maxlength="201"
+                placeholder="Add a new task..."
+                aria-label="New task description"
+                required
+              />
+              <button type="submit" class="btn btn-primary todo-add-btn">Add</button>
+            </div>
+            <div class="validation-error todo-error" hidden></div>
+          </form>
+
+          <!-- Filter Tabs & Status Bar -->
+          <div class="todo-toolbar">
+            <div class="filter-tabs">
+              <button type="button" class="tab-btn active" data-filter="all">All</button>
+              <button type="button" class="tab-btn" data-filter="active">Active</button>
+              <button type="button" class="tab-btn" data-filter="completed">Done</button>
+            </div>
+            <span class="todo-remaining-label">0 remaining</span>
+          </div>
+
+          <!-- Task Items List -->
+          <div class="todo-list-wrap">
+            <ul class="todo-list"></ul>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <!-- Exactly 1 JavaScript file inside js/ (TC-1, TC-2, RevoU Folder Rules) -->
+  <script src="js/app.js" defer></script>
+</body>
+</html>
